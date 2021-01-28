@@ -16,3 +16,11 @@
     - C. ```student.greeting```
     - D. ```student['Favorite Teacher'].name```
     - E. ```student.courseLoad[0]```
+14. - A. The output was ```'32'``` because ```2``` was converted to the character ```'2'``` and then concatenated with ```'3'``` to get ```'32'```.
+    - B. The output was ```1``` because ```'3'```was converted to number ```3``` and then ```2``` was subtracted from it to get ```1```. (Note: Unlike ```+```, ```-``` is not a valid operator for character operands thus the the type conversion of part A wasn't followed here.)
+    - C. The output was ```3``` because ```null``` was converted to number ```0``` and then added to ```3``` to get ```3```.
+    - D. The output was ```'3null'``` because ```null``` was converted to the string ```'null'``` and then concatenated with ```'3'``` to get ```'3null'```.
+    - E. The output was ```4``` because ```true``` was converted to the number ```1``` and then added to ```3``` to get ```4```.
+    - F. The output was ```0``` because ```false``` was converted to the number ```0``` and ```null``` was converted to the number ```0``` and then the two ```0``` were added to get ```0```.
+    - G. The output was ```'3undefined'``` because ```undefined``` was converted to the string ```"undefined"``` and then concatenated with ```"3"``` to get ```"3undefined"```.
+    - H. The output was ```NaN``` because ```"3"``` was converted to the number ```3``` and ```undefined``` was converted to the number ```NaN``` and then ```NaN``` was subtracted from ```3``` to get ```NaN```.
