@@ -11,5 +11,8 @@
 10. An error will occur. That is because similar to ```i```, the ```discountedPrice``` constant was declared inside the for-loop with the ```const``` keyword, which behaves like the ```let``` keyword scope-wise. Thus it only exists inside the scope of the for-loop. Since line 12 is outside the for-loop, it can't access ```discountedPrice```.
 11. The value inside the ```finalPrice``` constant will be printed without any errors.  That is because the ```finalPrice``` constant was declared in the same scope as line 13 i.e. scope of the function ```discountPrices```.
 12. An error will occur. That is because we have declared ```discounted``` and ```finalPrice``` with the ```const``` keyword, meaning both of them are declared as constant. But the function tries to change the values in ```discounted``` and ```finalPrice``` in line 8 and 7 respectively, which is not allowed. Once intitialized, the values of constants cannot be changed.
-13. - A. fsad
-    - B. 
+13. - A. ```student.name```
+    - B. ```student['Grad Year']```
+    - C. ```student.greeting```
+    - D. ```student['Favorite Teacher'].name```
+    - E. ```student.courseLoad[0]```
