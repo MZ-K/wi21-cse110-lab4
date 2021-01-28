@@ -24,3 +24,10 @@
     - F. The output was ```0``` because ```false``` was converted to the number ```0``` and ```null``` was converted to the number ```0``` and then the two ```0``` were added to get ```0```.
     - G. The output was ```'3undefined'``` because ```undefined``` was converted to the string ```"undefined"``` and then concatenated with ```"3"``` to get ```"3undefined"```.
     - H. The output was ```NaN``` because ```"3"``` was converted to the number ```3``` and ```undefined``` was converted to the number ```NaN``` and then ```NaN``` was subtracted from ```3``` to get ```NaN```.
+15. - A. The output was ```true``` because ```'2'``` is converted to ```2```. Then since ```2 > 1```, we get ```true```.
+    - B. The output was ```false``` because lexicographically, string ```'2'``` is greater than string ```'12'```. Then since ```'2' > '12'```, we get ```false```.
+    - C. The output was ```true``` because ```'2'``` is converted to ```2```. Then since ```2 == 2```, we get ```true```.  
+    - D. The output was ```false``` because ```2``` and ```'2'``` are of different types i.e. number and string respectively.
+    - E. The output was ```false``` because ```true``` is converted to ```1```. Then since ```1 != 2```, we get ```false```.
+    - F. The output was ```true``` because ```Boolean(2)``` is equal to ```true```. Then since ```true === true``` i.e. same type and value, we get ```true```.
+16. In the case ```==```, if the two operands to be compared are of different types, then they are converted to their numeric equivalent and then checked if they are equal. But in the case of ```===```, if the two operands to be compared are of different types, then they are declared as unequal without any further conversions and comparisons.
