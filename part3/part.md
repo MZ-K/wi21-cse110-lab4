@@ -7,4 +7,4 @@
  ```" "``` around the ```4```. Thus when we define ```result = num1 + num2```, our code doesn't add the 
  numbers. Rather it treats them as string and concatenates them. That is why in our case, when 
  ```num1 = "3"``` and ```num2 = "4"``` instead of getting ```7```, we get ```"34"```.
- - We can fix this bug by explicitly type-casting ```num1``` and ```num2``` in ```calculateSum``` to integers before adding them.
+ - We can fix this bug by explicitly converting ```num1``` and ```num2``` in ```calculateSum``` to integers before adding them.
