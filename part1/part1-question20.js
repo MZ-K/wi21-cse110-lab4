@@ -1,4 +1,4 @@
-let intervalID = window.setInterval(myCallback, 1000);
+setInterval(myCallback, 1000);
 
 function myCallback()
 {
