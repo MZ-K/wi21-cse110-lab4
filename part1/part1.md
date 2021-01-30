@@ -31,3 +31,5 @@
     - E. The output was ```false``` because ```true``` is converted to ```1```. Then since ```1 != 2```, we get ```false```.
     - F. The output was ```true``` because ```Boolean(2)``` is equal to ```true```. Then since ```true === true``` i.e. same type and value, we get ```true```.
 16. In the case ```==```, if the two operands to be compared are of different types, then they are converted to their numeric equivalent and then checked if they are equal. But in the case of ```===```, if the two operands to be compared are of different types, then they are declared as unequal without any further conversions and comparisons.
+17. The string ```How are you?``` will get printed. That is because the first conditional ```2 == true``` will evaluate to false because ```true``` will be converted to the number ```1```. Since ```2 != 1``` then ```2 == true``` evaluates to false. But the second conditional ```2``` will be evaluated to true. That is because ```2``` is a truthy value, thus its boolean conversion is true. The line inside the 2nd if statement i.e. ```console.log('How are you?')``` will be implemented.
+18. 
